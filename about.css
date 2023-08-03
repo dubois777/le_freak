@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:#06426796;
+    height: 150vh;
+}                                                                                       
+
+
+
+header{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+ 
+ .logo{
+     color: white;
+     font-size: xx-large;
+ }
+ 
+ span{
+     color: rgba(187, 90, 21, 0.668);
+ }
+ 
+ nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;   
+ }
+ 
+ nav ul li a{
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ nav ul li a:hover{
+    color: rgba(187, 90, 21, 0.85);
+    transition: 0.3s ease; 
+ 
+ }
+ 
+.container img{
+    border-radius: 34%;
+    width: 33vw;
+    border: 1px solid white;
+   box-shadow: 0 5px 20px rgb(255, 255, 255);
+}
+
+.container{
+    position: relative;
+    padding-top: 3%;
+    padding-left:66%;
+}
+
+.pijl{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    padding-left: 60%;
+    margin-top: -20%;
+}
+
+.text p{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 30%;
+    margin-top: -20%;
+}
+
+
+.arrow{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 1%;
+    padding-left: 34%;
+}
+
+.kunstenaar p{
+    font-size: large;
+    font-weight: 600;
+    color: white;
+}
+
+.kunstenaar{
+    padding-left: 3%;
+    margin-top: -1%;
+}
+
+
+.h1 h1{
+    color: rgba(187, 90, 21, 0.668);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.pijl2{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+.dansende img{
+border-radius: 12%;
+justify-content: center;
+align-items: center;
+margin:auto;
+display: flex;
+}
+
+.dansende{
+    margin-top: 20%;
+}
+
+footer{
+    background-color: #111;
+     position: relative;
+     width: 100%;
+     min-height: 100px;
+     padding: 20px 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     margin-top: 25%;
+ 
+ }
+ .footerContainer{
+     width: 70% ;
+     padding: 70px 30px 20px;
+     
+ }
+ 
+ .socialIcons{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .socialIcons a{
+     text-decoration: none;
+     padding: 10px;
+     background-color: white;
+     margin: 10px;
+     border-radius: 50%;
+ }
+ 
+ .socialIcons a i{
+     font-size: 2em;
+     color: black;
+     opacity: 0.9;
+ }
+ 
+ .socialIcons a:hover{
+     background-color: #111;
+     transition: 0.5s;
+ }
+ 
+ .socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+ }
+ 
+ .footerNav{
+     margin: 30px  0;
+ }
+ 
+ 
+ .footerNav ul{
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .footerNav ul li a{
+     color:white;
+     margin: 20px;
+     text-decoration: none;
+     font-size: 1.3em;
+     opacity: 0.7;
+     transition: 0.5s;
+ }
+ 
+ .footerNav ul li a:hover{
+     opacity: 1;
+ }
+ 
+ .footerBottom{
+     background-color: #111;
+     padding: 20px; 
+     text-align: center;
+ }
+ 
+ .footerBottom p{
+     color: white;
+ }
+ 
+ .span{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 5px;
+    text-decoration: none;
+    color: white;
+}
